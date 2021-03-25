@@ -24,16 +24,17 @@ namespace PruebaTecnica
                 int num = int.Parse(user.text);
                 if(num == null)
                 {
+
                     for (int i = 0; i <= num; i++)
                     {
-                        int numerico = user.text.PadRight(i, 0);
+                        int letras = user.text.PadRight(i, " ");
                     }
                 }
                 else
                 {
                     for (int i = 0; i <= num; i++)
                     {
-                        int letras = user.text.PadRight(i, " ");
+                        int numerico = user.text.PadRight(i, 0);
                     }
                 }
 
